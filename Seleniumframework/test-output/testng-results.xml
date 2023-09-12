@@ -1,142 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="0" skipped="1">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-06T16:17:20 GMT-04:00" name="Suite1" finished-at="2023-09-06T16:17:51 GMT-04:00" duration-ms="31044">
+  <suite started-at="2023-09-12T03:13:48 GMT-04:00" name="Suite1" finished-at="2023-09-12T03:14:55 GMT-04:00" duration-ms="66844">
     <groups>
     </groups>
-    <test started-at="2023-09-06T16:17:20 GMT-04:00" name="Test1" finished-at="2023-09-06T16:17:47 GMT-04:00" duration-ms="26126">
+    <test started-at="2023-09-12T03:13:48 GMT-04:00" name="Test2" finished-at="2023-09-12T03:14:35 GMT-04:00" duration-ms="46914">
       <class name="test.TestNGmultiplebrowserdemo">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:test.TestNGmultiplebrowserdemo@4082ba93]" started-at="2023-09-06T16:17:20 GMT-04:00" name="setup" finished-at="2023-09-06T16:17:46 GMT-04:00" duration-ms="26057" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: Failed to decode response from marionette 
-Host info: host: 'MWEB-GBD3DUC021', ip: '10.200.0.175'
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}]}]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Failed to decode response from marionette 
-Host info: host: 'MWEB-GBD3DUC021', ip: '10.200.0.175'
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}]}]
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:159)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:156)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:151)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:132)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:127)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:112)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:102)
-at test.TestNGmultiplebrowserdemo.setup(TestNGmultiplebrowserdemo.java:31)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
-at org.testng.TestRunner.beforeRun(TestRunner.java:652)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-at java.base/java.lang.Thread.run(Thread.java:832)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="test()[pri:0, instance:test.TestNGmultiplebrowserdemo@4082ba93]" started-at="2023-09-06T16:17:46 GMT-04:00" name="test" finished-at="2023-09-06T16:17:46 GMT-04:00" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: Failed to decode response from marionette 
-Host info: host: 'MWEB-GBD3DUC021', ip: '10.200.0.175'
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}]}]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Failed to decode response from marionette 
-Host info: host: 'MWEB-GBD3DUC021', ip: '10.200.0.175'
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}]}]
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:159)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:156)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:151)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:132)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:127)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:112)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:102)
-at test.TestNGmultiplebrowserdemo.setup(TestNGmultiplebrowserdemo.java:31)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
-at org.testng.TestRunner.beforeRun(TestRunner.java:652)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-at java.base/java.lang.Thread.run(Thread.java:832)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:test.TestNGmultiplebrowserdemo@4082ba93]" started-at="2023-09-06T16:17:47 GMT-04:00" name="teardown" finished-at="2023-09-06T16:17:47 GMT-04:00" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- test.TestNGmultiplebrowserdemo -->
-    </test> <!-- Test1 -->
-    <test started-at="2023-09-06T16:17:20 GMT-04:00" name="Test2" finished-at="2023-09-06T16:17:48 GMT-04:00" duration-ms="27198">
-      <class name="test.TestNGmultiplebrowserdemo">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:test.TestNGmultiplebrowserdemo@17bffc17]" started-at="2023-09-06T16:17:20 GMT-04:00" name="setup" finished-at="2023-09-06T16:17:28 GMT-04:00" duration-ms="7147" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:test.TestNGmultiplebrowserdemo@38145825]" started-at="2023-09-12T03:13:48 GMT-04:00" name="setup" finished-at="2023-09-12T03:14:11 GMT-04:00" duration-ms="23223" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -147,19 +18,19 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test()[pri:0, instance:test.TestNGmultiplebrowserdemo@17bffc17]" started-at="2023-09-06T16:17:28 GMT-04:00" name="test" finished-at="2023-09-06T16:17:42 GMT-04:00" duration-ms="14322" status="PASS">
+        <test-method signature="test()[pri:0, instance:test.TestNGmultiplebrowserdemo@38145825]" started-at="2023-09-12T03:14:11 GMT-04:00" name="test" finished-at="2023-09-12T03:14:31 GMT-04:00" duration-ms="20007" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:test.TestNGmultiplebrowserdemo@17bffc17]" started-at="2023-09-06T16:17:42 GMT-04:00" name="teardown" finished-at="2023-09-06T16:17:48 GMT-04:00" duration-ms="5675" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:test.TestNGmultiplebrowserdemo@38145825]" started-at="2023-09-12T03:14:31 GMT-04:00" name="teardown" finished-at="2023-09-12T03:14:35 GMT-04:00" duration-ms="3625" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- test.TestNGmultiplebrowserdemo -->
     </test> <!-- Test2 -->
-    <test started-at="2023-09-06T16:17:20 GMT-04:00" name="Test3" finished-at="2023-09-06T16:17:51 GMT-04:00" duration-ms="31005">
+    <test started-at="2023-09-12T03:13:48 GMT-04:00" name="Test3" finished-at="2023-09-12T03:14:43 GMT-04:00" duration-ms="55324">
       <class name="test.TestNGmultiplebrowserdemo">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:test.TestNGmultiplebrowserdemo@15a34df2]" started-at="2023-09-06T16:17:20 GMT-04:00" name="setup" finished-at="2023-09-06T16:17:29 GMT-04:00" duration-ms="8993" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:test.TestNGmultiplebrowserdemo@1b66c0fb]" started-at="2023-09-12T03:13:48 GMT-04:00" name="setup" finished-at="2023-09-12T03:14:33 GMT-04:00" duration-ms="45375" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -170,15 +41,38 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test()[pri:0, instance:test.TestNGmultiplebrowserdemo@15a34df2]" started-at="2023-09-06T16:17:29 GMT-04:00" name="test" finished-at="2023-09-06T16:17:51 GMT-04:00" duration-ms="21715" status="PASS">
+        <test-method signature="test()[pri:0, instance:test.TestNGmultiplebrowserdemo@1b66c0fb]" started-at="2023-09-12T03:14:33 GMT-04:00" name="test" finished-at="2023-09-12T03:14:42 GMT-04:00" duration-ms="8578" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:test.TestNGmultiplebrowserdemo@15a34df2]" started-at="2023-09-06T16:17:51 GMT-04:00" name="teardown" finished-at="2023-09-06T16:17:51 GMT-04:00" duration-ms="241" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:test.TestNGmultiplebrowserdemo@1b66c0fb]" started-at="2023-09-12T03:14:42 GMT-04:00" name="teardown" finished-at="2023-09-12T03:14:43 GMT-04:00" duration-ms="1356" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- test.TestNGmultiplebrowserdemo -->
     </test> <!-- Test3 -->
+    <test started-at="2023-09-12T03:13:48 GMT-04:00" name="Test1" finished-at="2023-09-12T03:14:55 GMT-04:00" duration-ms="66844">
+      <class name="test.TestNGmultiplebrowserdemo">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:test.TestNGmultiplebrowserdemo@5884a914]" started-at="2023-09-12T03:13:48 GMT-04:00" name="setup" finished-at="2023-09-12T03:14:43 GMT-04:00" duration-ms="54985" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test()[pri:0, instance:test.TestNGmultiplebrowserdemo@5884a914]" started-at="2023-09-12T03:14:43 GMT-04:00" name="test" finished-at="2023-09-12T03:14:51 GMT-04:00" duration-ms="8442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:test.TestNGmultiplebrowserdemo@5884a914]" started-at="2023-09-12T03:14:51 GMT-04:00" name="teardown" finished-at="2023-09-12T03:14:55 GMT-04:00" duration-ms="3386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- test.TestNGmultiplebrowserdemo -->
+    </test> <!-- Test1 -->
   </suite> <!-- Suite1 -->
 </testng-results>

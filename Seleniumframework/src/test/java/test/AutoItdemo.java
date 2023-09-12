@@ -27,7 +27,6 @@ public class AutoItdemo {
 		 Runtime.getRuntime().exec("Documents:\\fileuploadscript.exe");
 		 Thread.sleep(3000);
 		 driver.close();
-		 driver.quit();
 		
 	}
 

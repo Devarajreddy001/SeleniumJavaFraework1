@@ -9,71 +9,17 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite1</th></tr>
-<tr><td><a href="#t0">Test1</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">26,126</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Test2</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">27,198</td><td></td><td></td></tr>
-<tr><td><a href="#t2">Test3</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">31,005</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">2</th><th class="num attn">1</th><th class="num">0</th><th class="num">0</th><th class="num">84,329</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">Test2</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">46,914</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Test3</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">55,324</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Test1</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">66,844</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">3</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">169,082</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite1</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test1 &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">test.TestNGmultiplebrowserdemo</td><td><a href="#m0">setup</a></td><td rowspan="1">1694031440917</td><td rowspan="1">26057</td></tr><tr><th colspan="4">Test1 &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">test.TestNGmultiplebrowserdemo</td><td><a href="#m1">teardown</a></td><td rowspan="1">1694031467015</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test1 &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">test.TestNGmultiplebrowserdemo</td><td><a href="#m2">test</a></td><td rowspan="1">1694031466996</td><td rowspan="1">0</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Test2 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">test.TestNGmultiplebrowserdemo</td><td><a href="#m3">test</a></td><td rowspan="1">1694031448121</td><td rowspan="1">14322</td></tr></tbody>
-<tbody id="t2"><tr><th colspan="4">Test3 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">test.TestNGmultiplebrowserdemo</td><td><a href="#m4">test</a></td><td rowspan="1">1694031449972</td><td rowspan="1">21715</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite1</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test2 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">test.TestNGmultiplebrowserdemo</td><td><a href="#m0">test</a></td><td rowspan="1">1694502851523</td><td rowspan="1">20007</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Test3 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">test.TestNGmultiplebrowserdemo</td><td><a href="#m1">test</a></td><td rowspan="1">1694502873654</td><td rowspan="1">8578</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Test1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">test.TestNGmultiplebrowserdemo</td><td><a href="#m2">test</a></td><td rowspan="1">1694502883248</td><td rowspan="1">8442</td></tr></tbody>
 </table>
-<h2>Test1</h2><h3 id="m0">test.TestNGmultiplebrowserdemo#setup</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>firefox</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Failed to decode response from marionette 
-Host info: host: &apos;MWEB-GBD3DUC021&apos;, ip: &apos;10.200.0.175&apos;
-Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}]}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:159)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:156)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:151)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:102)
-	at test.TestNGmultiplebrowserdemo.setup(TestNGmultiplebrowserdemo.java:31)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 14 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">test.TestNGmultiplebrowserdemo#teardown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">test.TestNGmultiplebrowserdemo#test</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Failed to decode response from marionette 
-Host info: host: &apos;MWEB-GBD3DUC021&apos;, ip: &apos;10.200.0.175&apos;
-Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}]}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:159)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:156)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:151)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:102)
-	at test.TestNGmultiplebrowserdemo.setup(TestNGmultiplebrowserdemo.java:31)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 14 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Test2</h2><h3 id="m3">test.TestNGmultiplebrowserdemo#test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Test3</h2><h3 id="m4">test.TestNGmultiplebrowserdemo#test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test2</h2><h3 id="m0">test.TestNGmultiplebrowserdemo#test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test3</h2><h3 id="m1">test.TestNGmultiplebrowserdemo#test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test1</h2><h3 id="m2">test.TestNGmultiplebrowserdemo#test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

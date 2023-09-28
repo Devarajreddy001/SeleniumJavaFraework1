@@ -1,78 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-12T03:13:48 GMT-04:00" name="Suite1" finished-at="2023-09-12T03:14:55 GMT-04:00" duration-ms="66844">
+  <suite started-at="2023-09-12T10:34:36 GMT-04:00" name="Default suite" finished-at="2023-09-12T10:34:52 GMT-04:00" duration-ms="15484">
     <groups>
     </groups>
-    <test started-at="2023-09-12T03:13:48 GMT-04:00" name="Test2" finished-at="2023-09-12T03:14:35 GMT-04:00" duration-ms="46914">
-      <class name="test.TestNGmultiplebrowserdemo">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:test.TestNGmultiplebrowserdemo@38145825]" started-at="2023-09-12T03:13:48 GMT-04:00" name="setup" finished-at="2023-09-12T03:14:11 GMT-04:00" duration-ms="23223" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2023-09-12T10:34:36 GMT-04:00" name="Default test" finished-at="2023-09-12T10:34:52 GMT-04:00" duration-ms="15484">
+      <class name="test.Screenshot">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:test.Screenshot@69c81773]" started-at="2023-09-12T10:34:36 GMT-04:00" name="setupTest" finished-at="2023-09-12T10:34:45 GMT-04:00" duration-ms="8797" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="test()[pri:0, instance:test.TestNGmultiplebrowserdemo@38145825]" started-at="2023-09-12T03:14:11 GMT-04:00" name="test" finished-at="2023-09-12T03:14:31 GMT-04:00" duration-ms="20007" status="PASS">
+        </test-method> <!-- setupTest -->
+        <test-method signature="test1()[pri:0, instance:test.Screenshot@69c81773]" started-at="2023-09-12T10:34:45 GMT-04:00" name="test1" finished-at="2023-09-12T10:34:50 GMT-04:00" duration-ms="5457" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:test.TestNGmultiplebrowserdemo@38145825]" started-at="2023-09-12T03:14:31 GMT-04:00" name="teardown" finished-at="2023-09-12T03:14:35 GMT-04:00" duration-ms="3625" status="PASS">
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="teardowntest()[pri:0, instance:test.Screenshot@69c81773]" started-at="2023-09-12T10:34:50 GMT-04:00" name="teardowntest" finished-at="2023-09-12T10:34:52 GMT-04:00" duration-ms="1152" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- test.TestNGmultiplebrowserdemo -->
-    </test> <!-- Test2 -->
-    <test started-at="2023-09-12T03:13:48 GMT-04:00" name="Test3" finished-at="2023-09-12T03:14:43 GMT-04:00" duration-ms="55324">
-      <class name="test.TestNGmultiplebrowserdemo">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:test.TestNGmultiplebrowserdemo@1b66c0fb]" started-at="2023-09-12T03:13:48 GMT-04:00" name="setup" finished-at="2023-09-12T03:14:33 GMT-04:00" duration-ms="45375" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="test()[pri:0, instance:test.TestNGmultiplebrowserdemo@1b66c0fb]" started-at="2023-09-12T03:14:33 GMT-04:00" name="test" finished-at="2023-09-12T03:14:42 GMT-04:00" duration-ms="8578" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:test.TestNGmultiplebrowserdemo@1b66c0fb]" started-at="2023-09-12T03:14:42 GMT-04:00" name="teardown" finished-at="2023-09-12T03:14:43 GMT-04:00" duration-ms="1356" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- test.TestNGmultiplebrowserdemo -->
-    </test> <!-- Test3 -->
-    <test started-at="2023-09-12T03:13:48 GMT-04:00" name="Test1" finished-at="2023-09-12T03:14:55 GMT-04:00" duration-ms="66844">
-      <class name="test.TestNGmultiplebrowserdemo">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:test.TestNGmultiplebrowserdemo@5884a914]" started-at="2023-09-12T03:13:48 GMT-04:00" name="setup" finished-at="2023-09-12T03:14:43 GMT-04:00" duration-ms="54985" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="test()[pri:0, instance:test.TestNGmultiplebrowserdemo@5884a914]" started-at="2023-09-12T03:14:43 GMT-04:00" name="test" finished-at="2023-09-12T03:14:51 GMT-04:00" duration-ms="8442" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:test.TestNGmultiplebrowserdemo@5884a914]" started-at="2023-09-12T03:14:51 GMT-04:00" name="teardown" finished-at="2023-09-12T03:14:55 GMT-04:00" duration-ms="3386" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- test.TestNGmultiplebrowserdemo -->
-    </test> <!-- Test1 -->
-  </suite> <!-- Suite1 -->
+        </test-method> <!-- teardowntest -->
+      </class> <!-- test.Screenshot -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

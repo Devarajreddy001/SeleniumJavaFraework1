@@ -1,4 +1,6 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project 
+xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <properties>
   
     <maven.compiler.source>1.8</maven.compiler.source>
@@ -15,6 +17,8 @@
   
   
   <dependencies>
+  
+  
   	<dependency>
   		<groupId>org.seleniumhq.selenium</groupId>
   		<artifactId>selenium-java</artifactId>
@@ -34,6 +38,7 @@
     <artifactId>webdrivermanager</artifactId>
     <version>5.4.1</version>
 </dependency>
+
 
 <dependency>
   <groupId>org.testng</groupId>
@@ -68,7 +73,17 @@
 
   </dependencies>
   <build>
+  <defaultGoal>install</defaultGoal>
 <plugins>
+<plugin>
+         <groupId>org.apache.maven.plugins</groupId>
+         <artifactId>maven-compiler-plugin</artifactId>
+         <version>3.5.1</version>
+         <configuration>
+             <source>1.8</source>
+             <target>1.8</target>
+         </configuration>
+     </plugin>
     
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
